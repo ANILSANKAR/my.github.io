@@ -366,15 +366,14 @@ nav.shift ul li a:hover:after {
 /*-- //header --*/
 
 .banner {
-	background-image: url(../images/banner-3.jpg);
-	background-repeat: no-repeat;
+	background: url(../images/banner.jpg)no-repeat 0px 0px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-ms-background-size: cover;
-	background-size: contain;
-	min-height: 795px;
-	min-width: auto;
+	background-size: cover;
+	height: auto;
+	width: 100%
 	position: relative;
 }
 
